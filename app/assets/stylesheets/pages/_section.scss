@@ -1,0 +1,9 @@
+.full-viewport-section {
+  min-height: 100vh;
+  overflow-y: auto;
+  scroll-snap-align: start;
+}
+
+hr {
+  scroll-snap-align: start;
+}

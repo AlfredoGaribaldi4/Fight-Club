@@ -1,10 +1,81 @@
-<div class="gym-img">
-<%= render "shared/navbar" %>
-  <div class="title-home">
-    <h1>C.O Fight Club</h1>
-    <p>Campo Orique Brasilian Jiu-Jitsu Fight Club</p>
-    <li class="btn btn-flat">
-      <%= link_to "Our Classes!", services_path, class:"nav-link" %>
-    </li>
-  </div>
+<div class="gym-img" style="height:100vh; overflow:auto;">
+  <section class="full-viewport-section" id="home-page">
+    <%= render "shared/navbar" %>
+    <div class="title-home">
+      <h1>C.O Fight Club</h1>
+      <p>Campo Orique Brasilian Jiu-Jitsu Fight Club</p>
+      <li class="btn btn-flat">
+        <%= link_to "Our Classes!", services_path, class:"nav-link" %>
+      </li>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="full-viewport-section" id="team-page">
+    <div class="title-rest">
+      <h1>Our Professional Team</h1>
+    </div>
+
+    <div class="container mt-10">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-4 text-center">
+          <img class="rounded-circle mt-10" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm" />
+          <h2>Carlos</h2>
+          <p><strong>Faixa Preta, 66 y/o.</strong></p>
+        </div>
+        <div class="col-4 text-center">
+          <img class="rounded-circle mt-10" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm" />
+          <h2>Carlos</h2>
+          <p><strong>Faixa Preta, 66 y/o.</strong></p>
+        </div>
+        <div class="col-4 text-center">
+          <img class="rounded-circle mt-10" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm" />
+          <h2>Carlos</h2>
+          <p><strong>Faixa Preta, 66 y/o.</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="full-viewport-section" id="schedule-page">
+    <div class="title-rest">
+      <h1>Schedules</h1>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="full-viewport-section" id="service-page">
+    <div class="title-rest">
+      <h1>Our Programs</h1>
+    </div>
+
+    <div class="d-flex justify-content-between">
+      <div class="card-service">
+      </div>
+      <div class="card-service">
+      </div>
+      <div class="card-service">
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="full-viewport-section" id="product-page">
+    <div class="title-rest">
+      <h1>Products</h1>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="full-viewport-section" id="legacy-page">
+    <div class="title-rest">
+      <h1>Obout us</h1>
+    </div>
+  </section>
 </div>
